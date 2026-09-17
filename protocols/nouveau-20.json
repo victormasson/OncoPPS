@@ -1,0 +1,31 @@
+{
+  "id": "nouveau-20",
+  "titre": "NOUVEAU PROTOCOLE",
+  "indication": "",
+  "molecules": "",
+  "rythme": "1 cure / 15 jours",
+  "duree": "",
+  "explanation": [
+    "Après RCP, le traitement suivant vous est proposé."
+  ],
+  "parcours": [],
+  "timeline": [
+    {
+      "label": "J1",
+      "detail": "Perfusion HDJ"
+    },
+    {
+      "label": "J2–J14",
+      "detail": "Repos"
+    }
+  ],
+  "deroulement": [
+    "48 h avant la cure : bilan biologique en ville.",
+    "Jour de la cure : consultation puis perfusion en hôpital de jour."
+  ],
+  "effets": [],
+  "extras": [],
+  "recommandations": [
+    "En cas de fièvre ≥ 38,5 °C : contactez l’ICB ou le service d’hospitalisation."
+  ]
+}

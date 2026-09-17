@@ -1,0 +1,125 @@
+{
+  "id": "ec-taxol-herceptin",
+  "titre": "EC → TAXOL + HERCEPTIN",
+  "indication": "Chimiothérapie (néo)adjuvante — cancer du sein HER2 positif",
+  "molecules": "Épirubicine + cyclophosphamide, puis paclitaxel (Taxol) + trastuzumab (Herceptin)",
+  "rythme": "EC : 1 cure / 21 jours. Puis paclitaxel hebdomadaire. Trastuzumab toutes les 1 ou 3 semaines.",
+  "duree": "Souvent 3 à 4 cures d’EC, puis 9 à 12 injections de paclitaxel hebdomadaire. Le trastuzumab démarre avec le taxane (jamais en même temps que l’anthracycline) et se poursuit au total 1 an (environ 18 injections IV ou équivalent SC). Imagerie et FEVG selon le calendrier prescrit.",
+  "explanation": [
+    "Après RCP, un schéma séquentiel EC puis paclitaxel–trastuzumab vous est proposé pour un cancer du sein HER2 positif.",
+    "Première phase : épirubicine et cyclophosphamide (EC) toutes les 3 semaines. Le trastuzumab n’est pas associé à l’anthracycline (risque cardiaque).",
+    "Deuxième phase : paclitaxel hebdomadaire et trastuzumab (Herceptin IV ou voie sous-cutanée). Puis entretien par trastuzumab seul jusqu’à 1 an au total."
+  ],
+  "parcours": [],
+  "timeline": [
+    {
+      "label": "Phase EC — J1",
+      "detail": "Épirubicine +\ncyclophosphamide\n(~ 1–2 h)"
+    },
+    {
+      "label": "J2–J21",
+      "detail": "Repos"
+    },
+    {
+      "label": "J22 = J1",
+      "detail": "Nouvelle cure EC\n(souvent 3 à 4 cures)"
+    },
+    {
+      "label": "Phase Taxol–Herceptin",
+      "detail": "Paclitaxel hebdo\n+ trastuzumab\n(J1 puis J8, J15…)"
+    },
+    {
+      "label": "Après le paclitaxel",
+      "detail": "Trastuzumab seul\njusqu’à 1 an au total"
+    }
+  ],
+  "deroulement": [
+    "Avant chaque cure : bilan biologique. FEVG (échographie ou scintigraphie) avant de commencer, avant le trastuzumab, puis régulièrement pendant l’année d’Herceptin.",
+    "Jour EC : consultation d’oncologie, prémédication antiémétique, perfusion en hôpital de jour (journée).",
+    "Phase paclitaxel : prémédication antiallergique (corticoïde, antihistaminique) avant chaque Taxol. Trastuzumab le même jour ou selon le rythme (hebdomadaire ou toutes les 3 semaines / SC).",
+    "Entretien : injection de trastuzumab seule (IV courte ou sous-cutanée) toutes les 3 semaines jusqu’à 1 an."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Nausées, vomissements (surtout EC)",
+      "prevention": "Antiemétiques préventifs (aprépitant, ondansétron, corticoïdes). Fractionner les repas.",
+      "traitement": "Métoclopramide, métopimazine. En parler à l’oncologue si persistance."
+    },
+    {
+      "freq": "+",
+      "name": "Alopécie (perte de cheveux)",
+      "prevention": "Souvent importante dès l’EC, généralement réversible. Casque réfrigérant parfois proposé.",
+      "traitement": "Perruque, prothèse capillaire ou foulards prescrits si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Toxicité hématologique (Hb, PNN, plaquettes)",
+      "prevention": "Bilan sanguin avant chaque cure / chaque paclitaxel. G-CSF si prescrit.",
+      "traitement": "Cure décalée possible. Fièvre + PNN bas = hospitalisation."
+    },
+    {
+      "freq": "+",
+      "name": "Asthénie / fatigue",
+      "prevention": "Activité physique adaptée. Respecter les temps de repos.",
+      "traitement": "En parler à l’équipe. Bilan si fatigue inhabituelle."
+    },
+    {
+      "freq": "+",
+      "name": "Neuropathie (fourmillements mains/pieds — paclitaxel)",
+      "prevention": "Signaler dès les premiers fourmillements. Éviter le froid parfois aggravant.",
+      "traitement": "Adaptation des doses ou espacement. En parler à l’oncologue."
+    },
+    {
+      "freq": "+",
+      "name": "Douleurs musculaires / articulaires (paclitaxel)",
+      "prevention": "Antalgiques simples si prescrits. Hydratation.",
+      "traitement": "Paracétamol. Signaler si intense."
+    },
+    {
+      "freq": "+",
+      "name": "Réaction à la perfusion (paclitaxel, trastuzumab)",
+      "prevention": "Prémédication obligatoire avant Taxol. Première Herceptin IV surveillée plus longtemps.",
+      "traitement": "Arrêt de la perfusion et avis médical immédiat si malaise, essoufflement, éruption."
+    },
+    {
+      "freq": "+",
+      "name": "Mucite, aphtes",
+      "prevention": "Bains de bouche au bicarbonate après les repas. Éviter tabac et alcool.",
+      "traitement": "Bains de bouche spécifiques si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Oncolyse unguéale / ongles fragiles (taxane)",
+      "prevention": "Soins des ongles, vernis protecteur parfois proposé. Chaussures confortables.",
+      "traitement": "Soins locaux. En parler à l’équipe."
+    },
+    {
+      "freq": "+",
+      "name": "Cardiotoxicité (épirubicine + trastuzumab, risque cumulé)",
+      "prevention": "FEVG avant traitement, avant Herceptin, puis tous les 3 mois environ. Ne jamais associer anthracycline et trastuzumab le même jour.",
+      "traitement": "Interruption ou report de l’Herceptin si baisse de FEVG. Avis cardio-oncologique."
+    },
+    {
+      "freq": "!",
+      "name": "Fièvre ≥ 38,5 °C, frissons, essoufflement",
+      "prevention": "Surveiller la température surtout en période de nadir.",
+      "traitement": "Contacter l’ICB ou les urgences. NFS en urgence."
+    },
+    {
+      "freq": "!",
+      "name": "Douleur thoracique, palpitations, essoufflement d’effort nouveau",
+      "prevention": "Respecter le calendrier des FEVG.",
+      "traitement": "Avis médical en urgence (possible atteinte cardiaque)."
+    }
+  ],
+  "extras": [],
+  "recommandations": [
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur thoracique, réaction pendant la perfusion ou saignement : contactez l’ICB ou le service d’hospitalisation (numéros au recto).",
+    "Ne prenez pas d’anti-inflammatoires (ibuprofène, kétoprofène…) ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Le trastuzumab ne doit jamais être administré en même temps qu’une anthracycline. Les contrôles de FEVG sont indispensables pendant toute l’année d’Herceptin.",
+    "Le traitement peut être adapté selon la tolérance et les bilans. N’arrêtez jamais un médicament seul.",
+    "Une contraception efficace est recommandée pendant le traitement et plusieurs mois après. Signalez toute grossesse possible."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "xelox-adjuvant",
+  "titre": "XELOX ADJUVANT",
+  "indication": "Chimiothérapie adjuvante orale + IV",
+  "molecules": "Capécitabine (Xeloda) + oxaliplatine",
+  "rythme": "1 cure / 21 jours",
+  "duree": "4 cycles (3 mois).",
+  "explanation": [
+    "Après RCP : XELOX — capécitabine orale (Xeloda) et oxaliplatine IV.",
+    "Avant le début : pose d’une chambre implantable (CIP) et dosage de l’uracilémie. Dosage de l’uracilémie avant capécitabine.",
+    "4 cycles de 21 jours, soit 3 mois."
+  ],
+  "parcours": [],
+  "timeline": [
+    {
+      "label": "J1",
+      "detail": "Oxaliplatine\n1 h 30 HDJ"
+    },
+    {
+      "label": "J1–J14",
+      "detail": "Capécitabine\nmatin et soir"
+    },
+    {
+      "label": "J15–J21",
+      "detail": "Repos"
+    },
+    {
+      "label": "J22 = J1",
+      "detail": "Nouvelle cure"
+    }
+  ],
+  "deroulement": [
+    "48 h avant la cure : bilan biologique en ville.",
+    "J1 : consultation d’oncologie puis perfusion d’oxaliplatine en HDJ avec prémédication.",
+    "De J1 à J14 : capécitabine (Xeloda) comprimés matin et soir (posologie fixée par l’oncologue).",
+    "J15–J21 : repos, sans comprimé."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Nausées, vomissements",
+      "prevention": "Antiemétiques préventifs (aprépitant, ondansétron, corticoïdes). Fractionner les repas.",
+      "traitement": "Métoclopramide, métopimazine. En parler à l’oncologue si persistance."
+    },
+    {
+      "freq": "+",
+      "name": "Neuropathie (fourmillements extrémités / gorge, déclenchés par le froid)",
+      "prevention": "Éviter le froid (gants, boissons tièdes, se couvrir).",
+      "traitement": "En parler à l’oncologue : adaptation des doses possible."
+    },
+    {
+      "freq": "+",
+      "name": "Diarrhée",
+      "prevention": "Adapter l’alimentation (féculents). Hydratation suffisante.",
+      "traitement": "Anti-diarrhéiques dès la 1re selle liquide."
+    },
+    {
+      "freq": "+",
+      "name": "Aphtes, mucite",
+      "prevention": "Bains de bouche au bicarbonate après les repas. Éviter tabac et alcool.",
+      "traitement": "Bains de bouche spécifiques (antifongique, corticoïdes…)."
+    },
+    {
+      "freq": "+",
+      "name": "Syndrome main-pied",
+      "prevention": "Crème hydratante mains et pieds. Éviter chaussures trop serrées.",
+      "traitement": "Crèmes spécifiques prescrites selon l’intensité."
+    },
+    {
+      "freq": "+",
+      "name": "Toxicité hématologique (Hb, PNN, plaquettes)",
+      "prevention": "Bilan sanguin 48 h avant chaque cure. G-CSF / EPO si prescrit.",
+      "traitement": "Cure décalée possible. Fièvre + PNN bas = hospitalisation. Transfusion si besoin."
+    },
+    {
+      "freq": "!",
+      "name": "Douleur thoracique pendant la prise des comprimés",
+      "prevention": "—",
+      "traitement": "Arrêt des comprimés et avis médical en urgence."
+    }
+  ],
+  "extras": [],
+  "recommandations": [
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur thoracique, diarrhée sévère ou saignement : contactez l’ICB ou le service d’hospitalisation (numéros au recto).",
+    "Ne prenez pas d’anti-inflammatoires (ibuprofène, kétoprofène…) ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Le traitement peut être adapté selon la tolérance et les bilans. N’arrêtez jamais un médicament seul.",
+    "Hydratez-vous régulièrement. Surveillez votre poids. Une contraception efficace est recommandée pendant le traitement."
+  ]
+}

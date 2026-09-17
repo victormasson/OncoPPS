@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PPS ICB — fiches recto-verso</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav>
+      <button id="nav-remise" class="nav active" type="button">Remettre une fiche</button>
+      <button id="nav-editeur" class="nav" type="button">Éditer un protocole</button>
+    </nav>
+    <span class="brand">Institut de Cancérologie de Bourgogne</span>
+  </header>
+
+  <div class="workspace">
+    <!-- ================= Écran : remettre une fiche ================= -->
+    <section id="screen-remise" class="screen">
+      <aside class="protocols">
+        <h2>Protocoles</h2>
+        <ul id="proto-list" class="proto-list"></ul>
+        <div class="stack">
+          <label class="btn secondary file-btn">
+            Charger un JSON…
+            <input id="file-json" type="file" accept=".json,application/json" hidden>
+          </label>
+          <button id="btn-new" class="btn positive" type="button">+ Nouveau protocole</button>
+        </div>
+      </aside>
+
+      <div class="form">
+        <h2>Identité du patient</h2>
+        <p class="hint">Ces informations sont imprimées en en-tête du recto.</p>
+        <label>Nom<input data-patient="nom" placeholder="DUPONT" autocomplete="off"></label>
+        <label>Prénom<input data-patient="prenom" placeholder="Marie" autocomplete="off"></label>
+        <label>Date de naissance<input data-patient="naissance" placeholder="JJ/MM/AAAA" autocomplete="off"></label>
+        <label>Date de remise de la fiche<input data-patient="remise" placeholder="JJ/MM/AAAA" autocomplete="off"></label>
+        <label>Remise par<input data-patient="par" placeholder="Dr … / IDE …" autocomplete="off"></label>
+
+        <h3>Contacts (facultatif)</h3>
+        <label>Médecin référent<input data-patient="referent" autocomplete="off"></label>
+        <label>Tél. référent<input data-patient="referent_tel" placeholder="03 80 …" autocomplete="off"></label>
+
+        <div class="actions">
+          <button id="btn-download-pdf" class="btn primary" type="button">Télécharger le PDF (recto-verso)</button>
+          <button id="btn-print" class="btn positive" type="button">Imprimer</button>
+        </div>
+        <p class="hint">Une seule feuille A4, à imprimer recto-verso. L’aperçu à droite se met à jour automatiquement.</p>
+      </div>
+    </section>
+
+    <!-- ================= Écran : éditeur ================= -->
+    <section id="screen-editeur" class="screen" hidden>
+      <div class="form editor">
+        <div class="row between">
+          <h2>Éditeur de protocole</h2>
+          <div class="row">
+            <select id="edit-select" title="Choisir le protocole à modifier"></select>
+            <button id="btn-new-2" class="btn secondary" type="button">Nouveau protocole</button>
+            <label class="btn secondary file-btn">
+              Charger un JSON…
+              <input id="file-json-2" type="file" accept=".json,application/json" hidden>
+            </label>
+          </div>
+        </div>
+        <p class="hint">Les protocoles intégrés viennent du dossier <code>protocols/</code> du site. Vos modifications sont
+          enregistrées dans ce navigateur ; téléchargez le JSON pour l’ajouter au site.</p>
+
+        <label>Titre affiché<input id="d-titre" placeholder="FOLFIRI" autocomplete="off"></label>
+        <label>Identifiant fichier (slug)<input id="d-id" placeholder="folfiri" autocomplete="off"></label>
+        <label>Indication<input id="d-indication" placeholder="Chimiothérapie métastatique" autocomplete="off"></label>
+        <label>Molécules<input id="d-molecules" placeholder="5-FU + irinotécan" autocomplete="off"></label>
+        <label>Rythme<input id="d-rythme" placeholder="1 cure / 15 jours" autocomplete="off"></label>
+        <label>Durée / nombre de cures<input id="d-duree" autocomplete="off"></label>
+
+        <div class="row between textes-head">
+          <h3>Textes</h3>
+          <div class="row">
+            <label class="check"><input id="d-markdown" type="checkbox"> Mise en forme Markdown</label>
+            <span class="help" tabindex="0">(?) Aide Markdown
+              <span class="tooltip" role="tooltip">
+<b>Mise en forme Markdown</b> (une ligne = un élément)
+
+<code>**gras**</code>        → texte en <b>gras</b>
+<code>*italique*</code>      → texte en <i>italique</i>
+<code>~~barré~~</code>       → texte <s>barré</s>
+<code>`code`</code>          → texte mis en couleur
+<code># Titre</code>         → sous-titre (sans puce)
+<code>- élément</code>       → sous-puce indentée
+<code>1. élément</code>      → liste numérotée
+<code>&gt; remarque</code>      → note en italique
+<code>\*</code>              → astérisque littéral
+
+S’applique à : explication, déroulement, recommandations
+et aux colonnes du tableau des effets (nom, prévention, que faire).
+              </span>
+            </span>
+          </div>
+        </div>
+        <p id="md-hint" class="hint"></p>
+
+        <label>Explication du traitement<textarea id="d-explanation" rows="4"></textarea></label>
+
+        <div class="row between textes-head">
+          <h3>Frise « Déroulement d’une cure »</h3>
+          <button id="btn-tl-add" class="btn secondary" type="button">+ Ajouter une case</button>
+        </div>
+        <p class="hint">Les cases s’affichent de gauche à droite sur le recto. Le détail peut tenir sur plusieurs lignes (Entrée).
+          Utilisez ▲ ▼ pour réordonner et ✕ pour supprimer.</p>
+        <div id="d-timeline" class="tl-list"></div>
+
+        <label>Déroulement d’une cure (texte sous la frise)<textarea id="d-deroulement" rows="5"></textarea></label>
+        <label>Recommandations générales<textarea id="d-recommandations" rows="6"></textarea></label>
+        <label>Effets secondaires — une ligne = freq | nom | prévention | que faire
+          <span class="hint">freq = + (fréquent), ± (possible), ! (urgent). Exemple : + | Nausées | Antiémétiques | Métoclopramide</span>
+          <textarea id="d-effets" rows="10" placeholder="+ | Nausées | Antiémétiques | Métoclopramide"></textarea>
+        </label>
+
+        <div class="actions">
+          <button id="btn-save" class="btn positive" type="button">Enregistrer dans ce navigateur</button>
+          <button id="btn-download-json" class="btn primary" type="button">Télécharger le JSON</button>
+          <button id="btn-delete-local" class="btn danger" type="button" hidden>Supprimer la copie locale</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Aperçu ================= -->
+    <aside class="preview">
+      <div class="preview-head">
+        <h2>Aperçu</h2>
+        <span id="preview-info" class="hint"></span>
+      </div>
+      <iframe id="preview" title="Aperçu du PDF"></iframe>
+    </aside>
+  </div>
+
+  <footer id="status" class="status ok"></footer>
+
+  <script src="vendor/jspdf.umd.min.js"></script>
+  <script src="pps-pdf.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

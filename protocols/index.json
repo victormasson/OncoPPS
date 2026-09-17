@@ -1,0 +1,122 @@
+[
+  {
+    "id": "abemaciclib",
+    "titre": "ABEMACICLIB (VERZENIOS)",
+    "indication": "Thérapie orale ciblée (CDK4/6) — cancer du sein RH+ / HER2−, en association à une hormonothérapie (adjuvant haut risque ou métastatique)"
+  },
+  {
+    "id": "alimta-carboplatine-pembrolizumab",
+    "titre": "ALIMTA + CARBOPLATINE + PEMBROLIZUMAB",
+    "indication": "Chimiothérapie-immunothérapie de 1re ligne — CBNPC non épidermoïde métastatique (sans addiction oncogénique EGFR/ALK) — schéma KEYNOTE-189"
+  },
+  {
+    "id": "ec-taxol-herceptin",
+    "titre": "EC → TAXOL + HERCEPTIN",
+    "indication": "Chimiothérapie (néo)adjuvante — cancer du sein HER2 positif"
+  },
+  {
+    "id": "flot-periop",
+    "titre": "FLOT PÉRI-OPÉRATOIRE",
+    "indication": "Cancer estomac / jonction œsogastrique localisé"
+  },
+  {
+    "id": "flot-durvalumab",
+    "titre": "FLOT – DURVALUMAB",
+    "indication": "Péri-opératoire estomac / JOG + immunothérapie"
+  },
+  {
+    "id": "folfiri",
+    "titre": "FOLFIRI",
+    "indication": "Chimiothérapie (souvent métastatique)"
+  },
+  {
+    "id": "folfiri-zaltrap",
+    "titre": "FOLFIRI – AFLIBERCEPT",
+    "indication": "Chimiothérapie + anti-angiogénique"
+  },
+  {
+    "id": "folfiri-beva",
+    "titre": "FOLFIRI – BEVACIZUMAB",
+    "indication": "Chimiothérapie + anti-angiogénique"
+  },
+  {
+    "id": "folfirinox-meta",
+    "titre": "FOLFIRINOX",
+    "indication": "Chimiothérapie métastatique"
+  },
+  {
+    "id": "folfirinox-adjuvant-pancreas",
+    "titre": "FOLFIRINOX ADJUVANT",
+    "indication": "Chimiothérapie adjuvante — pancréas"
+  },
+  {
+    "id": "folfirinox-rectum-tnt",
+    "titre": "FOLFIRINOX — RECTUM TNT",
+    "indication": "Traitement néoadjuvant total — rectum localisé"
+  },
+  {
+    "id": "folfox-meta",
+    "titre": "FOLFOX",
+    "indication": "Chimiothérapie métastatique"
+  },
+  {
+    "id": "folfox-adjuvant",
+    "titre": "FOLFOX ADJUVANT",
+    "indication": "Chimiothérapie adjuvante"
+  },
+  {
+    "id": "folfox-beva",
+    "titre": "FOLFOX – BEVACIZUMAB",
+    "indication": "Chimiothérapie + anti-angiogénique"
+  },
+  {
+    "id": "folfox-cetuximab",
+    "titre": "FOLFOX – CETUXIMAB",
+    "indication": "Chimiothérapie + anti-EGFR"
+  },
+  {
+    "id": "folfox-nivolumab",
+    "titre": "FOLFOX – NIVOLUMAB",
+    "indication": "Chimiothérapie + immunothérapie"
+  },
+  {
+    "id": "folfox-vectibix",
+    "titre": "FOLFOX – PANITUMUMAB",
+    "indication": "Chimiothérapie + anti-EGFR"
+  },
+  {
+    "id": "folfox-pembro",
+    "titre": "FOLFOX – PEMBROLIZUMAB",
+    "indication": "Chimiothérapie + immunothérapie"
+  },
+  {
+    "id": "folfox-trastu",
+    "titre": "FOLFOX – TRASTUZUMAB",
+    "indication": "Chimiothérapie + thérapie ciblée HER2"
+  },
+  {
+    "id": "gemzar-cisplatine-durvalumab",
+    "titre": "GEMZAR + CISPLATINE + DURVALUMAB",
+    "indication": "Chimiothérapie-immunothérapie de 1re ligne — voies biliaires avancées (cholangiocarcinome, vésicule) — schéma TOPAZ-1"
+  },
+  {
+    "id": "lv5fu2-adjuvant",
+    "titre": "LV5FU2 ADJUVANT",
+    "indication": "Chimiothérapie adjuvante"
+  },
+  {
+    "id": "nouveau-20",
+    "titre": "NOUVEAU PROTOCOLE",
+    "indication": ""
+  },
+  {
+    "id": "pembrolizumab",
+    "titre": "PEMBROLIZUMAB",
+    "indication": "Immunothérapie"
+  },
+  {
+    "id": "xelox-adjuvant",
+    "titre": "XELOX ADJUVANT",
+    "indication": "Chimiothérapie adjuvante orale + IV"
+  }
+]

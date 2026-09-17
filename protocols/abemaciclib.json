@@ -1,0 +1,110 @@
+{
+  "id": "abemaciclib",
+  "titre": "ABEMACICLIB (VERZENIOS)",
+  "indication": "Thérapie orale ciblée (CDK4/6) — cancer du sein RH+ / HER2−, en association à une hormonothérapie (adjuvant haut risque ou métastatique)",
+  "molecules": "Abémaciclib ± hormonothérapie (anti-aromatase, fulvestrant, tamoxifène ± analogue de la LHRH)",
+  "rythme": "2 prises par jour, tous les jours, en continu (pas de semaine de pause)",
+  "duree": "Adjuvant (monarchE) : 2 ans, ou jusqu’à rechute / toxicité. Métastatique : tant qu’il y a un bénéfice clinique. L’hormonothérapie associée se poursuit souvent plus longtemps (5 à 10 ans en adjuvant).",
+  "explanation": [
+    "Après RCP, un traitement par abémaciclib (Verzenios) vous est proposé, toujours associé à une hormonothérapie.",
+    "C’est un comprimé à prendre chez vous, deux fois par jour, à heures fixes, avec ou sans repas. Avaler entier, sans écraser ni couper.",
+    "La dose habituelle est 150 mg matin et soir. En cas d’effets secondaires, la dose peut être baissée à 100 mg puis 50 mg × 2/j. Un oubli : ne pas doubler la prise suivante."
+  ],
+  "parcours": [],
+  "timeline": [
+    {
+      "label": "Tous les jours",
+      "detail": "Abémaciclib\n150 mg matin +\n150 mg soir"
+    },
+    {
+      "label": "Hormonothérapie",
+      "detail": "Comprimé quotidien\nou fulvestrant IM\nselon prescription"
+    },
+    {
+      "label": "Surveillance",
+      "detail": "NFS et bilan hépatique\nréguliers surtout\nles 2 premiers mois"
+    },
+    {
+      "label": "Durée",
+      "detail": "2 ans en adjuvant\nou jusqu’à progression\nen métastatique"
+    }
+  ],
+  "deroulement": [
+    "Traitement oral à domicile. Pas de pompe ni d’hôpital de jour pour l’abémaciclib lui-même.",
+    "Bilan sanguin (NFS, créatinine, bilan hépatique) avant le début, puis régulièrement (souvent à 2 semaines, 1 mois, puis tous les 1 à 3 mois).",
+    "Délivrance en pharmacie hospitalière ou officinale selon le circuit. Carnet de suivi des prises et des selles utile les premières semaines.",
+    "Consultation d’oncologie pour adapter la dose (diarrhée, NFS, transaminases) et poursuivre l’hormonothérapie."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Diarrhée (très fréquente, souvent dès la 1re semaine)",
+      "prevention": "Avoir du lopéramide à domicile dès J1. Hydratation. Alimentation pauvre en fibres au début (féculents, carotte, banane).",
+      "traitement": "Lopéramide dès la 1re selle liquide. Appeler si > 4 selles/j, fièvre, ou diarrhée qui dure malgré le traitement. Pause puis baisse de dose fréquentes."
+    },
+    {
+      "freq": "+",
+      "name": "Nausées, vomissements, perte d’appétit, modification du goût",
+      "prevention": "Prendre éventuellement pendant le repas. Fractionner les repas.",
+      "traitement": "Antiémétiques si prescrits. En cas de vomissement, ne pas reprendre une dose supplémentaire."
+    },
+    {
+      "freq": "+",
+      "name": "Asthénie / fatigue",
+      "prevention": "Activité physique adaptée. Respecter les temps de repos.",
+      "traitement": "En parler à l’équipe. Rechercher une anémie."
+    },
+    {
+      "freq": "+",
+      "name": "Toxicité hématologique (neutropénie, anémie, plaquettes)",
+      "prevention": "Bilans sanguins réguliers. Éviter les situations à risque infectieux si PNN bas.",
+      "traitement": "Pause et/ou réduction de dose. Fièvre + PNN bas = urgence."
+    },
+    {
+      "freq": "+",
+      "name": "Infections",
+      "prevention": "Hygiène des mains. Signaler fièvre, toux, brûlures urinaires.",
+      "traitement": "Consultation rapide. NFS."
+    },
+    {
+      "freq": "+",
+      "name": "Élévation des transaminases / créatinine (souvent sans gravité pour la créatinine)",
+      "prevention": "Bilans biologiques programmés. Éviter l’automédication hépatotoxique.",
+      "traitement": "Adaptation de dose selon le grade. La créatinine peut augmenter sans insuffisance rénale vraie."
+    },
+    {
+      "freq": "+",
+      "name": "Alopécie modérée, sécheresse cutanée, prurit, rash",
+      "prevention": "Crème hydratante. Éviter le soleil intense.",
+      "traitement": "Soins locaux. Signaler une éruption étendue."
+    },
+    {
+      "freq": "+",
+      "name": "Larmoiement, sensation vertigineuse, maux de tête",
+      "prevention": "Se lever progressivement. Hydratation.",
+      "traitement": "En parler si gênant au quotidien."
+    },
+    {
+      "freq": "!",
+      "name": "Thrombose veineuse / embolie pulmonaire",
+      "prevention": "Signaler mollet douloureux, essoufflement brutal, douleur thoracique. Risque un peu plus élevé, surtout avec tamoxifène.",
+      "traitement": "Avis médical urgent."
+    },
+    {
+      "freq": "!",
+      "name": "Pneumopathie / essoufflement inhabituel, toux nouvelle",
+      "prevention": "Signaler tout symptôme respiratoire nouveau.",
+      "traitement": "Imagerie et avis oncologue. Pause du traitement possible."
+    }
+  ],
+  "extras": [],
+  "recommandations": [
+    "Dès la première selle liquide : lopéramide + boire beaucoup + prévenir l’équipe si ça ne cède pas en 24 h.",
+    "Pas de pamplemousse, d’orange amère ni de millepertuis (interactions). Signaler tous les autres médicaments, y compris phytothérapie.",
+    "En cas d’oubli : ne pas doubler. En cas de vomissement après la prise : ne pas reprendre une dose.",
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur de mollet ou thoracique, diarrhée sévère : contactez l’ICB ou le service (numéros au recto).",
+    "Ne prenez pas d’anti-inflammatoires ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Une contraception efficace est recommandée pendant le traitement. N’arrêtez jamais le comprimé seul."
+  ]
+}

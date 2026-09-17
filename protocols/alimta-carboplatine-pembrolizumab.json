@@ -1,0 +1,122 @@
+{
+  "id": "alimta-carboplatine-pembrolizumab",
+  "titre": "ALIMTA + CARBOPLATINE + PEMBROLIZUMAB",
+  "indication": "Chimiothérapie-immunothérapie de 1re ligne — CBNPC non épidermoïde métastatique (sans addiction oncogénique EGFR/ALK) — schéma KEYNOTE-189",
+  "molecules": "Pémétrexed (Alimta) + carboplatine + pembrolizumab (Keytruda)",
+  "rythme": "1 cure / 21 jours",
+  "duree": "4 cycles de triple association, puis entretien par pémétrexed ± pembrolizumab toutes les 3 semaines (pembrolizumab souvent jusqu’à 35 cycles / ~ 2 ans, pémétrexed jusqu’à progression ou toxicité). Imagerie tous les 2 à 3 mois.",
+  "explanation": [
+    "Après RCP, une association pémétrexed–carboplatine–pembrolizumab vous est proposée pour un cancer bronchique non à petites cellules non épidermoïde.",
+    "Le pembrolizumab est une immunothérapie (anti-PD-1), administré en premier le jour de la cure. Le pémétrexed nécessite une préparation vitaminique (acide folique + vitamine B12) et une prémédication par corticoïdes.",
+    "Quatre cycles en hôpital de jour toutes les 3 semaines, puis entretien (Alimta ± Keytruda) tant que le traitement est efficace et toléré."
+  ],
+  "parcours": [],
+  "timeline": [
+    {
+      "label": "J1",
+      "detail": "Pembrolizumab (~ 30 min)\npuis Alimta (~ 10 min)\n+ carboplatine (~ 30–60 min)"
+    },
+    {
+      "label": "J2–J21",
+      "detail": "Repos\nAcide folique quotidien"
+    },
+    {
+      "label": "J22 = J1",
+      "detail": "Nouvelle cure\n(4 cycles combinés)"
+    },
+    {
+      "label": "Entretien",
+      "detail": "Alimta ± pembrolizumab\ntoutes les 3 semaines"
+    }
+  ],
+  "deroulement": [
+    "Au moins 7 jours avant la 1re cure : début de l’acide folique oral quotidien et 1re injection de vitamine B12 IM (puis toutes les 9 semaines environ). Corticoïdes la veille, le jour et le lendemain de l’Alimta.",
+    "48 h avant : bilan biologique (NFS, créatinine, bilan hépatique).",
+    "Jour de cure : consultation d’oncologie, puis perfusions en hôpital de jour (journée). Pembrolizumab en premier.",
+    "Après 4 cycles : passage en entretien (séances plus courtes si Alimta ± pembro seuls)."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Nausées, vomissements",
+      "prevention": "Antiemétiques préventifs. Fractionner les repas.",
+      "traitement": "Métoclopramide, métopimazine. En parler si persistance."
+    },
+    {
+      "freq": "+",
+      "name": "Asthénie / fatigue",
+      "prevention": "Activité physique adaptée. Respecter les temps de repos.",
+      "traitement": "En parler à l’équipe. Bilan si fatigue inhabituelle (anémie)."
+    },
+    {
+      "freq": "+",
+      "name": "Toxicité hématologique (anémie, neutropénie, plaquettes)",
+      "prevention": "Bilan sanguin avant chaque cure. Vitamine B12 + acide folique indispensables avec l’Alimta.",
+      "traitement": "Cure décalée possible. Fièvre + PNN bas = hospitalisation."
+    },
+    {
+      "freq": "+",
+      "name": "Anorexie, constipation ou diarrhée, mucite",
+      "prevention": "Suivi diététique. Hydratation. Bains de bouche au bicarbonate.",
+      "traitement": "CNO si besoin. Laxatifs ou antidiarrhéiques selon le cas."
+    },
+    {
+      "freq": "+",
+      "name": "Éruption cutanée, prurit",
+      "prevention": "Corticoïdes péri-Alimta. Crème hydratante.",
+      "traitement": "Dermocorticoïdes. Signaler une éruption étendue (possible effet immuno-médié)."
+    },
+    {
+      "freq": "+",
+      "name": "Œdèmes, conjonctivite / larmoiement (pémétrexed)",
+      "prevention": "Corticoïdes selon le schéma prescrit. Larmes artificielles si besoin.",
+      "traitement": "En parler à l’oncologue."
+    },
+    {
+      "freq": "+",
+      "name": "Insuffisance rénale (carboplatine, pémétrexed)",
+      "prevention": "Contrôle de la créatinine avant chaque cure. Hydratation.",
+      "traitement": "Adaptation de dose ou report."
+    },
+    {
+      "freq": "+",
+      "name": "Hypothyroïdie / troubles endocriniens (pembrolizumab)",
+      "prevention": "Dosage de la TSH à intervalles réguliers.",
+      "traitement": "Opothérapie si besoin. Ne pas arrêter seul le pembrolizumab."
+    },
+    {
+      "freq": "!",
+      "name": "Pneumopathie / essoufflement, toux nouvelle (immuno-médié ou Alimta)",
+      "prevention": "Signaler toute gêne respiratoire nouvelle, même tardive.",
+      "traitement": "Avis médical urgent. Imagerie. Corticothérapie possible."
+    },
+    {
+      "freq": "!",
+      "name": "Colite / diarrhée sévère ou sanglante",
+      "prevention": "Hydratation. Signaler tôt.",
+      "traitement": "Ne pas se contenter d’un antidiarrhéique si persistance : possible colite immuno-médiée."
+    },
+    {
+      "freq": "!",
+      "name": "Hépatite immuno-médiée, atteinte rénale, cutanée sévère, neurologique",
+      "prevention": "Bilans réguliers. Signaler ictère, urines foncées, rash bulleux, déficit neurologique.",
+      "traitement": "Interruption du pembrolizumab et avis oncologue en urgence."
+    },
+    {
+      "freq": "!",
+      "name": "Fièvre ≥ 38,5 °C, frissons",
+      "prevention": "Surveiller la température en période de nadir.",
+      "traitement": "Contacter l’ICB ou les urgences. NFS en urgence."
+    }
+  ],
+  "extras": [],
+  "recommandations": [
+    "Ne jamais oublier l’acide folique quotidien ni les injections de vitamine B12 : elles réduisent la toxicité de l’Alimta.",
+    "Tout symptôme nouveau sous pembrolizumab (toux, diarrhée, éruption, fatigue extrême, maux de tête, vision floue) peut être immuno-médié, même des semaines après une perfusion : signalez-le rapidement.",
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur thoracique, diarrhée sévère ou saignement : contactez l’ICB ou le service d’hospitalisation (numéros au recto).",
+    "Ne prenez pas d’anti-inflammatoires (ibuprofène, kétoprofène…) ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Le traitement peut être adapté selon la tolérance et les bilans. N’arrêtez jamais un médicament seul.",
+    "Une contraception efficace est recommandée pendant le traitement et plusieurs mois après."
+  ]
+}

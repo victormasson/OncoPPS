@@ -1,0 +1,131 @@
+{
+  "id": "gemzar-cisplatine-durvalumab",
+  "titre": "GEMZAR + CISPLATINE + DURVALUMAB",
+  "indication": "Chimiothérapie-immunothérapie de 1re ligne — voies biliaires avancées (cholangiocarcinome, vésicule) — schéma TOPAZ-1",
+  "molecules": "Gemcitabine (Gemzar) + cisplatine + durvalumab (Imfinzi)",
+  "rythme": "1 cycle / 21 jours (phase combinée) puis durvalumab toutes les 4 semaines",
+  "duree": "Jusqu’à 8 cycles de combinaison (gemcitabine + cisplatine + durvalumab), puis entretien par durvalumab en monothérapie toutes les 4 semaines jusqu’à progression ou toxicité. Imagerie tous les 2 à 3 mois.",
+  "explanation": [
+    "Après RCP, une association gemcitabine–cisplatine–durvalumab vous est proposée (schéma TOPAZ-1) pour un cancer des voies biliaires avancé ou métastatique.",
+    "Le durvalumab est une immunothérapie (anti-PD-L1). Il est administré le jour 1 de chaque cycle, avant la chimiothérapie.",
+    "Pendant 8 cycles au maximum : perfusion à J1 (durvalumab + gemcitabine + cisplatine) et à J8 (gemcitabine + cisplatine), puis une semaine de repos. Ensuite, entretien par durvalumab seul toutes les 4 semaines."
+  ],
+  "parcours": [],
+  "timeline": [
+    {
+      "label": "J1",
+      "detail": "Durvalumab (~ 1 h)\npuis gemcitabine (~ 30 min)\n+ cisplatine (~ 1 h)\nHydratation"
+    },
+    {
+      "label": "J8",
+      "detail": "Gemcitabine (~ 30 min)\n+ cisplatine (~ 1 h)"
+    },
+    {
+      "label": "J9–J21",
+      "detail": "Repos"
+    },
+    {
+      "label": "J22 = J1",
+      "detail": "Nouveau cycle\n(jusqu’à 8 cycles combinés)"
+    },
+    {
+      "label": "Après 8 cycles",
+      "detail": "Durvalumab seul\ntoutes les 4 semaines"
+    }
+  ],
+  "deroulement": [
+    "Avant chaque J1 et chaque J8 : bilan biologique (NFS, créatinine, ionogramme, bilan hépatique). Consultation d’oncologie pour validation.",
+    "J1 en hôpital de jour : prémédication antiémétique, durvalumab en 1 heure, puis gemcitabine et cisplatine avec hydratation. Durée de séjour souvent 4 à 6 heures.",
+    "J8 en hôpital de jour : gemcitabine + cisplatine (séance plus courte).",
+    "Après les 8 cycles combinés : passage en entretien, perfusion de durvalumab seule (~ 1 h) toutes les 4 semaines."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Nausées, vomissements",
+      "prevention": "Antiemétiques préventifs (aprépitant, ondansétron, corticoïdes) surtout à J1 et J8. Fractionner les repas.",
+      "traitement": "Métoclopramide, métopimazine. En parler à l’oncologue si persistance."
+    },
+    {
+      "freq": "+",
+      "name": "Toxicité hématologique (neutropénie, anémie, thrombopénie)",
+      "prevention": "Bilan sanguin avant J1 et J8. G-CSF si prescrit.",
+      "traitement": "Cure décalée ou dose adaptée possible. Fièvre + PNN bas = urgence (hospitalisation)."
+    },
+    {
+      "freq": "+",
+      "name": "Asthénie / fatigue",
+      "prevention": "Activité physique adaptée. Respecter les temps de repos.",
+      "traitement": "En parler à l’équipe. Bilan si fatigue inhabituelle."
+    },
+    {
+      "freq": "+",
+      "name": "Anorexie, troubles du goût",
+      "prevention": "Suivi diététique. Repas enrichis et fractionnés.",
+      "traitement": "Compléments nutritionnels oraux (CNO) si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Nephrotoxicité (cisplatine)",
+      "prevention": "Hydratation IV le jour de la perfusion. Boire abondamment les jours suivants. Contrôle de la créatinine avant chaque cisplatine.",
+      "traitement": "Adaptation ou arrêt du cisplatine si insuffisance rénale."
+    },
+    {
+      "freq": "+",
+      "name": "Neuropathie / ototoxicité (cisplatine)",
+      "prevention": "Signaler fourmillements, troubles de l’audition ou acouphènes dès leur apparition.",
+      "traitement": "Adaptation des doses. Avis ORL si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Éruption cutanée, prurit",
+      "prevention": "Crème hydratante. Éviter le soleil intense.",
+      "traitement": "Antihistaminiques, dermocorticoïdes. Signaler toute éruption étendue (possible effet immuno-médié)."
+    },
+    {
+      "freq": "+",
+      "name": "Diarrhée / colite",
+      "prevention": "Hydratation. Adapter l’alimentation.",
+      "traitement": "Anti-diarrhéiques si besoin. Diarrhée sévère ou sanglante : appeler (colite immuno-médiée possible)."
+    },
+    {
+      "freq": "+",
+      "name": "Syndrome grippal (gemcitabine)",
+      "prevention": "Paracétamol si prescrit. Repos.",
+      "traitement": "En général transitoire dans les 24–48 h après la perfusion."
+    },
+    {
+      "freq": "+",
+      "name": "Hypothyroïdie / troubles endocriniens (durvalumab)",
+      "prevention": "Dosage de la TSH à intervalles réguliers.",
+      "traitement": "Opothérapie substitutive si besoin. Ne pas arrêter seul le durvalumab."
+    },
+    {
+      "freq": "!",
+      "name": "Pneumopathie / essoufflement inhabituel (immuno-médié)",
+      "prevention": "Signaler toute toux nouvelle, fièvre ou gêne respiratoire.",
+      "traitement": "Avis médical urgent. Imagerie et corticothérapie possibles. Ne pas attendre."
+    },
+    {
+      "freq": "!",
+      "name": "Hépatite immuno-médiée (élévation des transaminases)",
+      "prevention": "Bilan hépatique régulier.",
+      "traitement": "Interruption du durvalumab et corticothérapie selon le grade. Avis oncologue."
+    },
+    {
+      "freq": "!",
+      "name": "Fièvre ≥ 38,5 °C, frissons",
+      "prevention": "Surveiller la température, surtout en période de nadir (J8–J15).",
+      "traitement": "Contacter l’ICB ou les urgences. NFS en urgence."
+    }
+  ],
+  "extras": [],
+  "recommandations": [
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur thoracique, diarrhée sévère, ictère ou saignement : contactez l’ICB ou le service d’hospitalisation (numéros au recto).",
+    "Tout symptôme nouveau pendant ou après le durvalumab (toux, diarrhée, éruption, fatigue extrême, maux de tête, vision floue) peut être immuno-médié : signalez-le rapidement, même plusieurs semaines après une perfusion.",
+    "Ne prenez pas d’anti-inflammatoires (ibuprofène, kétoprofène…) ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Le traitement peut être adapté selon la tolérance et les bilans. N’arrêtez jamais un médicament seul.",
+    "Hydratez-vous régulièrement, surtout les jours de cisplatine. Surveillez votre poids. Une contraception efficace est recommandée pendant le traitement et plusieurs mois après."
+  ]
+}

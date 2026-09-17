@@ -1,0 +1,79 @@
+{
+  "id": "pembrolizumab",
+  "titre": "PEMBROLIZUMAB",
+  "indication": "Immunothérapie",
+  "molecules": "Pembrolizumab (Keytruda)",
+  "rythme": "1 cure / 21 jours",
+  "duree": "Nombre de cures selon tolérance et évolution. Imagerie tous les 2 à 3 mois.",
+  "explanation": [
+    "Après RCP : immunothérapie par pembrolizumab (Keytruda).",
+    "Cures toutes les 3 semaines. Pas de pompe à domicile."
+  ],
+  "parcours": [],
+  "timeline": [
+    {
+      "label": "J1",
+      "detail": "Perfusion\n~ 1 heure"
+    },
+    {
+      "label": "J2–J21",
+      "detail": "Repos à domicile"
+    },
+    {
+      "label": "J22 = J1",
+      "detail": "Nouvelle cure"
+    }
+  ],
+  "deroulement": [
+    "48 h avant la cure : bilan biologique en ville.",
+    "Jour de la cure : consultation d’oncologie puis perfusion en hôpital de jour (environ 1 heure).",
+    "Retour à domicile le jour même. Pas de pompe."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Asthénie / fatigue",
+      "prevention": "Activité physique adaptée et régulière. Respecter les temps de repos.",
+      "traitement": "En parler à l’équipe. Bilan si fatigue inhabituelle."
+    },
+    {
+      "freq": "±",
+      "name": "Réactions liées à la perfusion",
+      "prevention": "Surveillance pendant la perfusion (1 h).",
+      "traitement": "Arrêt et traitement symptomatique si réaction."
+    }
+  ],
+  "extras": [
+    {
+      "freq": "±",
+      "name": "Effets immuno-médiés (moins fréquents, <10–15 %)",
+      "prevention": "Surveillance clinique et biologique à chaque cure. Signaler tout symptôme nouveau.",
+      "traitement": "Avis oncologue rapide ; corticothérapie parfois nécessaire."
+    },
+    {
+      "freq": "±",
+      "name": "Thyroïde (hypo / hyperthyroïdie)",
+      "prevention": "Bilan thyroïdien à chaque biologie.",
+      "traitement": "Substitution ou avis endocrinologue."
+    },
+    {
+      "freq": "±",
+      "name": "Colite auto-immune",
+      "prevention": "Diarrhée importante ne cédant pas au lopéramide.",
+      "traitement": "Éliminer une infection puis corticothérapie si besoin."
+    },
+    {
+      "freq": "±",
+      "name": "Hépatite / néphrite / pneumopathie / myocardite",
+      "prevention": "Enzymes hépatiques, créatinine, enzymes cardiaques. Toux sèche ou dyspnée = alerte.",
+      "traitement": "Avis urgent, imagerie et traitement spécifique."
+    }
+  ],
+  "recommandations": [
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur thoracique, diarrhée sévère ou saignement : contactez l’ICB ou le service d’hospitalisation (numéros au recto).",
+    "Ne prenez pas d’anti-inflammatoires (ibuprofène, kétoprofène…) ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Le traitement peut être adapté selon la tolérance et les bilans. N’arrêtez jamais un médicament seul.",
+    "Hydratez-vous régulièrement. Surveillez votre poids. Une contraception efficace est recommandée pendant le traitement."
+  ]
+}

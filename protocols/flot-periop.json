@@ -1,0 +1,115 @@
+{
+  "id": "flot-periop",
+  "titre": "FLOT PÉRI-OPÉRATOIRE",
+  "indication": "Cancer estomac / jonction œsogastrique localisé",
+  "molecules": "5-FU + oxaliplatine + docétaxel",
+  "rythme": "1 cure / 15 jours",
+  "duree": "4 cures pré-opératoires (2 mois) + chirurgie + 4 cures post-opératoires (début ≤ 8 semaines).",
+  "explanation": [
+    "Après RCP : traitement péri-opératoire FLOT encadrant la chirurgie.",
+    "Avant le début : cœlioscopie exploratrice, pose de CIP ± jéjunostomie d’alimentation, uracilémie.",
+    "Imagerie après les 4 cures pré-opératoires. Chirurgie environ 1 mois après la fin du pré-opératoire."
+  ],
+  "parcours": [
+    {
+      "titre": "Pré-opératoire",
+      "texte": "4 cures FLOT / 15 j — 2 mois"
+    },
+    {
+      "titre": "Chirurgie",
+      "texte": "~ 1 mois après la fin du pré-op."
+    },
+    {
+      "titre": "Post-opératoire",
+      "texte": "4 cures identiques, début ≤ 8 sem."
+    }
+  ],
+  "timeline": [
+    {
+      "label": "J1",
+      "detail": "Perfusion HDJ\n(journée)"
+    },
+    {
+      "label": "J2",
+      "detail": "Pompe 5-FU\n24 heures"
+    },
+    {
+      "label": "J3–J14",
+      "detail": "Repos"
+    },
+    {
+      "label": "J15 = J1",
+      "detail": "Nouvelle cure"
+    }
+  ],
+  "deroulement": [
+    "48 h avant la cure : bilan biologique en ville (laboratoire ou infirmière à domicile).",
+    "Jour de la cure : consultation d’oncologie puis perfusion en hôpital de jour (journée) avec prémédication.",
+    "Retour à domicile avec une pompe (Baxter / diffuseur) pour 24 h de 5-FU.",
+    "À 24 h : retrait de la pompe par l’infirmière libérale."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Nausées, vomissements",
+      "prevention": "Antiemétiques préventifs (aprépitant, ondansétron, corticoïdes). Fractionner les repas.",
+      "traitement": "Métoclopramide, métopimazine. En parler à l’oncologue si persistance."
+    },
+    {
+      "freq": "+",
+      "name": "Diarrhée (parfois importante)",
+      "prevention": "Adapter l’alimentation (féculents). Hydratation suffisante.",
+      "traitement": "Anti-diarrhéiques dès la 1re selle liquide. Appeler si > 4 selles/j ou fièvre."
+    },
+    {
+      "freq": "+",
+      "name": "Neuropathie (fourmillements extrémités / gorge, déclenchés par le froid)",
+      "prevention": "Éviter le froid (gants, boissons tièdes, se couvrir).",
+      "traitement": "En parler à l’oncologue : adaptation des doses possible."
+    },
+    {
+      "freq": "+",
+      "name": "Toxicité hématologique (Hb, PNN, plaquettes)",
+      "prevention": "Bilan sanguin 48 h avant chaque cure. G-CSF / EPO si prescrit.",
+      "traitement": "Cure décalée possible. Fièvre + PNN bas = hospitalisation. Transfusion si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Alopécie (perte de cheveux)",
+      "prevention": "Souvent progressive et réversible.",
+      "traitement": "Perruque, prothèse capillaire ou foulards prescrits si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Anorexie (perte d’appétit)",
+      "prevention": "Suivi diététique. Repas enrichis et fractionnés.",
+      "traitement": "Compléments nutritionnels oraux (CNO) si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Asthénie / fatigue",
+      "prevention": "Activité physique adaptée et régulière. Respecter les temps de repos.",
+      "traitement": "En parler à l’équipe. Bilan si fatigue inhabituelle."
+    },
+    {
+      "freq": "+",
+      "name": "Aphtes, mucite",
+      "prevention": "Bains de bouche au bicarbonate après les repas. Éviter tabac et alcool.",
+      "traitement": "Bains de bouche spécifiques (antifongique, corticoïdes…)."
+    },
+    {
+      "freq": "+",
+      "name": "Syndrome main-pied",
+      "prevention": "Crème hydratante mains et pieds. Éviter chaussures trop serrées.",
+      "traitement": "Crèmes spécifiques prescrites selon l’intensité."
+    }
+  ],
+  "extras": [],
+  "recommandations": [
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur thoracique, diarrhée sévère ou saignement : contactez l’ICB ou le service d’hospitalisation (numéros au recto).",
+    "Ne prenez pas d’anti-inflammatoires (ibuprofène, kétoprofène…) ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Le traitement peut être adapté selon la tolérance et les bilans. N’arrêtez jamais un médicament seul.",
+    "Hydratez-vous régulièrement. Surveillez votre poids. Une contraception efficace est recommandée pendant le traitement."
+  ]
+}

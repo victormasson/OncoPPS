@@ -1,0 +1,120 @@
+{
+  "id": "folfirinox-rectum-tnt",
+  "titre": "FOLFIRINOX — RECTUM TNT",
+  "indication": "Traitement néoadjuvant total — rectum localisé",
+  "molecules": "FOLFIRINOX puis radiochimiothérapie puis chirurgie",
+  "rythme": "FOLFIRINOX : 1 cure / 15 jours",
+  "duree": "6 cures (3 mois) puis radiochimiothérapie 5 semaines, repos 6–8 semaines, puis chirurgie. Parcours ~ 7–8 mois.",
+  "explanation": [
+    "Après RCP : traitement néoadjuvant total (TNT) d’un cancer du rectum localisé.",
+    "Chaque spécialiste (oncologue, radiothérapeute, chirurgien) détaille sa partie.",
+    "Avant le début : pose d’une chambre implantable (CIP) et dosage de l’uracilémie.",
+    "Scanner à l’issue des 6 cures de FOLFIRINOX."
+  ],
+  "parcours": [
+    {
+      "titre": "1. FOLFIRINOX",
+      "texte": "6 cures / 15 jours — 3 mois"
+    },
+    {
+      "titre": "2. Radiochimiothérapie",
+      "texte": "RT 5 j/7 + chimiothérapie orale — 5 semaines"
+    },
+    {
+      "titre": "3. Repos",
+      "texte": "6 à 8 semaines"
+    },
+    {
+      "titre": "4. Chirurgie",
+      "texte": "Selon le bilan de réévaluation"
+    }
+  ],
+  "timeline": [
+    {
+      "label": "J1",
+      "detail": "Perfusion HDJ\n(~ 3 h 30)"
+    },
+    {
+      "label": "J2–J3",
+      "detail": "Pompe 5-FU\n48 heures"
+    },
+    {
+      "label": "J4–J14",
+      "detail": "Repos"
+    },
+    {
+      "label": "× 6 cures",
+      "detail": "Puis RCT"
+    }
+  ],
+  "deroulement": [
+    "48 h avant la cure : bilan biologique en ville (laboratoire ou infirmière à domicile).",
+    "Jour de la cure : consultation d’oncologie (validation de la NFS et adaptation), puis perfusion en hôpital de jour avec prémédication.",
+    "Retour à domicile avec une pompe (Baxter / diffuseur) pour 48 h de 5-FU.",
+    "À 48 h : retrait de la pompe par l’infirmière libérale."
+  ],
+  "effets": [
+    {
+      "freq": "+",
+      "name": "Nausées, vomissements",
+      "prevention": "Antiemétiques préventifs (aprépitant, ondansétron, corticoïdes). Fractionner les repas.",
+      "traitement": "Métoclopramide, métopimazine. En parler à l’oncologue si persistance."
+    },
+    {
+      "freq": "+",
+      "name": "Neuropathie (fourmillements extrémités / gorge, déclenchés par le froid)",
+      "prevention": "Éviter le froid (gants, boissons tièdes, se couvrir).",
+      "traitement": "En parler à l’oncologue : adaptation des doses possible."
+    },
+    {
+      "freq": "+",
+      "name": "Diarrhée (parfois importante)",
+      "prevention": "Adapter l’alimentation (féculents). Hydratation suffisante.",
+      "traitement": "Anti-diarrhéiques dès la 1re selle liquide. Appeler si > 4 selles/j ou fièvre."
+    },
+    {
+      "freq": "+",
+      "name": "Syndrome cholinergique (sueurs, douleurs abdominales, diarrhée)",
+      "prevention": "Atropine avant / pendant la perfusion d’irinotécan.",
+      "traitement": "Signaler immédiatement pendant la perfusion."
+    },
+    {
+      "freq": "+",
+      "name": "Aphtes, mucite",
+      "prevention": "Bains de bouche au bicarbonate après les repas. Éviter tabac et alcool.",
+      "traitement": "Bains de bouche spécifiques (antifongique, corticoïdes…)."
+    },
+    {
+      "freq": "+",
+      "name": "Syndrome main-pied",
+      "prevention": "Crème hydratante mains et pieds. Éviter chaussures trop serrées.",
+      "traitement": "Crèmes spécifiques prescrites selon l’intensité."
+    },
+    {
+      "freq": "+",
+      "name": "Alopécie (perte de cheveux)",
+      "prevention": "Souvent progressive et réversible.",
+      "traitement": "Perruque, prothèse capillaire ou foulards prescrits si besoin."
+    },
+    {
+      "freq": "+",
+      "name": "Toxicité hématologique (Hb, PNN, plaquettes)",
+      "prevention": "Bilan sanguin 48 h avant chaque cure. G-CSF / EPO si prescrit.",
+      "traitement": "Cure décalée possible. Fièvre + PNN bas = hospitalisation. Transfusion si besoin."
+    },
+    {
+      "freq": "!",
+      "name": "Douleur thoracique pendant la perfusion ou le diffuseur",
+      "prevention": "—",
+      "traitement": "Arrêt de la perfusion / pompe et avis médical en urgence."
+    }
+  ],
+  "extras": [],
+  "recommandations": [
+    "En cas de fièvre ≥ 38,5 °C, frissons, essoufflement, douleur thoracique, diarrhée sévère ou saignement : contactez l’ICB ou le service d’hospitalisation (numéros au recto).",
+    "Ne prenez pas d’anti-inflammatoires (ibuprofène, kétoprofène…) ni d’aspirine sans avis médical.",
+    "Apportez cette fiche et votre dernière ordonnance à chaque consultation ou passage aux urgences.",
+    "Le traitement peut être adapté selon la tolérance et les bilans. N’arrêtez jamais un médicament seul.",
+    "Hydratez-vous régulièrement. Surveillez votre poids. Une contraception efficace est recommandée pendant le traitement."
+  ]
+}
